@@ -1,0 +1,35 @@
+{
+  "name": "claude-env-switch",
+  "version": "1.0.0",
+  "description": "Switch between multiple env configs in ~/.claude/settings.json — works on macOS and Windows",
+  "bin": {
+    "claude-env": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anthropic",
+    "env",
+    "environment",
+    "config",
+    "switch",
+    "settings"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdityaPedagada/claude-env-switch.git"
+  },
+  "homepage": "https://github.com/AdityaPedagada/claude-env-switch#readme",
+  "bugs": {
+    "url": "https://github.com/AdityaPedagada/claude-env-switch/issues"
+  }
+}
